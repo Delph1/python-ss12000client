@@ -29,12 +29,18 @@ All dates are in the RFC 3339 format, we're not cavemen here.
 
 ## **Installation**
 
-1. **Save the Client:** Save the code from ss12000_client.py in your project directory.  
-2. **Install Dependencies:** This library uses requests for making HTTP calls. If you plan to use the webhook receiver example, you will also need fastapi and uvicorn.  
+1. **Save the Client:** Save the code from ss12000_client.py in your project directory, or:
 ```
-pip install requests fastapi uvicorn
+pip install ss12000client
 ```
-
+2. **(Optional) Install Dependencies:** If you just downloaded the file instead of using the pip command you might need to install some additional dependencies. This library uses requests for making HTTP calls. If you plan to use the webhook receiver example, you will also need fastapi and uvicorn.  
+```
+pip install requests
+```
+3. If you plan to use the webhook receiver example, you will also need fastapi and uvicorn.  
+```
+pip install fastapi uvicorn
+```
 ## **Usage**
 
 ### **Initializing the Client**
